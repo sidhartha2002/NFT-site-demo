@@ -1,0 +1,119 @@
+/*
+Challenge:
+1. Use comments to divide up the CSS
+   into segments.
+⚠️ Don't use too many comments!
+*/
+
+body {
+  font-size: 16px;
+  color: #2b283a;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+/* typography */
+h1,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 36px;
+  /* margin: 0; */
+}
+h2 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #d0aaff;
+  font-size: 20px;
+  /* margin: 0; */
+}
+
+p {
+  line-height: 23px;
+}
+
+/* links */
+a {
+  color: #ef5839;
+  text-decoration: underline dotted;
+}
+
+a:hover,
+a:active {
+  color: #d4b44c;
+}
+
+/* layouts */
+header,
+.section-two {
+  background-color: #5f29a3;
+}
+
+header,
+section,
+footer {
+  padding: 45px 0;
+}
+
+.section-two {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+.main-image {
+  width: 100%;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+.feature-img {
+  width: 300px;
+  border-radius: 4.6px;
+}
+.section-two-img-conatiner {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  font-size: 16px;
+  color: #5f29a3;
+  text-align: center;
+  /* padding: 45px 0px; */
+}
+
+.btn {
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-dark {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+.btn-mid {
+  background-color: #f0e0ff;
+  color: #5f29a3;
+}
+
+.btn-light {
+  background-color: whitesmoke;
+  color: 5f;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #f3e885;
+  color: #2b283a;
+}
